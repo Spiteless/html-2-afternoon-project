@@ -1,0 +1,139 @@
+a {
+    color:inherit;
+    text-decoration: none;
+   }
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+.container{
+    max-width: 1400px;
+    width: 80%;
+}
+
+.container-nav {
+    margin: auto;
+    height: 100px;
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: left;
+    align-items: center;
+    white-space: nowrap;
+
+    /* border: 1px red solid; */
+
+    color: #0f0;
+    /* background: #000; */
+}
+
+.container-sticky {
+    height: 100%;
+    height: 60px;
+    width: 100%;
+    
+    background: red;
+    /* position: absolute; */
+    position: sticky;
+}
+
+#logo {
+    border: red;
+    /* height: 70px; */
+    /* width: 210px; */
+    min-height: 27px;
+    height: 27px;
+    width: 210px;
+    color: white;
+    padding-right: 20px;
+    resize: none;
+}
+
+.fill-white{
+    fill:#fff;
+    resize: none;
+}
+
+.nav-links {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    /* border: 1px red solid; */
+}
+
+.nav-link {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+    /* border: 1px red solid; */
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: flex-end;
+    /* 
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold; */
+    /* border: 1px red solid; */
+}
+
+section {
+    height: 100vh;
+}
+
+#starlink{
+    /* background-image: url(C:\code\devmountain\wr3\week2\day1\html-css-2-afternoon\media\); */
+    background-image: url(./media/bgphoto1.webp);
+    background-size: contain ;
+    background-size: auto 100%;
+}
+
+#gps3{
+    /* background-image: url(C:\code\devmountain\wr3\week2\day1\html-css-2-afternoon\media\); */
+    background-image: url(./media/gps3_launch_desktop_02.webp);
+    background-size: contain ;
+    background-size: auto 100%;
+}
+
+#human-spaceflight{
+    /* background-image: url(C:\code\devmountain\wr3\week2\day1\html-css-2-afternoon\media\); */
+    background-image: url(./media/bob-and-doug.jpg);
+    /* background-size: contain ; */
+    background-size: 100%;
+}
+
+#lunar-mission{
+    /* background-image: url(C:\code\devmountain\wr3\week2\day1\html-css-2-afternoon\media\); */
+    background-image: url(./media/home_moon.webp);
+    background-size: contain ;
+    background-size: auto 100%;
+    /* background: url(greatimage.jpg); */
+}
+
+.flex {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-left {
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+.bottom-right {
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
